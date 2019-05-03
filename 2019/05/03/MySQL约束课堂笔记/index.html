@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="-mysql,">
 
 
 
@@ -81,17 +81,18 @@
 
 
 
-<meta name="description" content="今日内容1. DQL:查询语句     1. 排序查询     2. 聚合函数     3. 分组查询     4. 分页查询  2. 约束 3. 多表之间的关系 4. 范式 5. 数据库的备份和还原 DQL:查询语句1. 排序查询     * 语法：order by 子句         * order by 排序字段1 排序方式1 ，  排序字段2 排序方式2...      * 排序方式：">
+<meta name="description" content="MYSQL学习的第一天1. DQL:查询语句     1. 排序查询     2. 聚合函数     3. 分组查询     4. 分页查询  2. 约束 3. 多表之间的关系 4. 范式 5. 数据库的备份和还原">
+<meta name="keywords" content="-mysql">
 <meta property="og:type" content="article">
-<meta property="og:title" content="郑先生的博客">
+<meta property="og:title" content="Mysql学习的第一天">
 <meta property="og:url" content="http://yoursite.com/2019/05/03/MySQL约束课堂笔记/index.html">
 <meta property="og:site_name" content="郑先生的博客">
-<meta property="og:description" content="今日内容1. DQL:查询语句     1. 排序查询     2. 聚合函数     3. 分组查询     4. 分页查询  2. 约束 3. 多表之间的关系 4. 范式 5. 数据库的备份和还原 DQL:查询语句1. 排序查询     * 语法：order by 子句         * order by 排序字段1 排序方式1 ，  排序字段2 排序方式2...      * 排序方式：">
+<meta property="og:description" content="MYSQL学习的第一天1. DQL:查询语句     1. 排序查询     2. 聚合函数     3. 分组查询     4. 分页查询  2. 约束 3. 多表之间的关系 4. 范式 5. 数据库的备份和还原">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-30T04:54:04.638Z">
+<meta property="og:updated_time" content="2019-05-03T16:31:33.128Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="郑先生的博客">
-<meta name="twitter:description" content="今日内容1. DQL:查询语句     1. 排序查询     2. 聚合函数     3. 分组查询     4. 分页查询  2. 约束 3. 多表之间的关系 4. 范式 5. 数据库的备份和还原 DQL:查询语句1. 排序查询     * 语法：order by 子句         * order by 排序字段1 排序方式1 ，  排序字段2 排序方式2...      * 排序方式：">
+<meta name="twitter:title" content="Mysql学习的第一天">
+<meta name="twitter:description" content="MYSQL学习的第一天1. DQL:查询语句     1. 排序查询     2. 聚合函数     3. 分组查询     4. 分页查询  2. 约束 3. 多表之间的关系 4. 范式 5. 数据库的备份和还原">
 
 
 
@@ -127,7 +128,7 @@
 
 
 
-  <title> | 郑先生的博客</title>
+  <title>Mysql学习的第一天 | 郑先生的博客</title>
   
 
 
@@ -271,7 +272,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline"></h1>
+          <h1 class="post-title" itemprop="name headline">Mysql学习的第一天</h1>
         
 
         <div class="post-meta">
@@ -283,7 +284,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-03T21:10:13+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-03T11:01:15+08:00">
                 2019-05-03
               </time>
             
@@ -293,6 +294,28 @@
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/mysql数据库/" itemprop="url" rel="index">
+                    <span itemprop="name">mysql数据库</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -321,7 +344,7 @@
       
 
       
-        <h1 id="今日内容"><a href="#今日内容" class="headerlink" title="今日内容"></a>今日内容</h1><pre><code>1. DQL:查询语句
+        <h1 id="MYSQL学习的第一天"><a href="#MYSQL学习的第一天" class="headerlink" title="MYSQL学习的第一天"></a>MYSQL学习的第一天</h1><pre><code>1. DQL:查询语句
     1. 排序查询
     2. 聚合函数
     3. 分组查询
@@ -331,7 +354,8 @@
 3. 多表之间的关系
 4. 范式
 5. 数据库的备份和还原
-</code></pre><h1 id="DQL-查询语句"><a href="#DQL-查询语句" class="headerlink" title="DQL:查询语句"></a>DQL:查询语句</h1><pre><code>1. 排序查询
+</code></pre><a id="more"></a>
+<h1 id="DQL-查询语句"><a href="#DQL-查询语句" class="headerlink" title="DQL:查询语句"></a>DQL:查询语句</h1><pre><code>1. 排序查询
     * 语法：order by 子句
         * order by 排序字段1 排序方式1 ，  排序字段2 排序方式2...
 
@@ -634,6 +658,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/mysql/" rel="tag"># -mysql</a>
+          
+        </div>
+      
 
       
       
@@ -643,15 +673,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/05/03/linux入门/" rel="next" title="linux入门">
-                <i class="fa fa-chevron-left"></i> linux入门
-              </a>
-            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/05/03/郑先生/" rel="prev" title="郑先生">
+                郑先生 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -742,7 +772,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -753,7 +783,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -823,7 +853,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#今日内容"><span class="nav-number">1.</span> <span class="nav-text">今日内容</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#DQL-查询语句"><span class="nav-number">2.</span> <span class="nav-text">DQL:查询语句</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#约束"><span class="nav-number">2.1.</span> <span class="nav-text">约束</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数据库的设计"><span class="nav-number">2.2.</span> <span class="nav-text">数据库的设计</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数据库的备份和还原"><span class="nav-number">2.3.</span> <span class="nav-text">数据库的备份和还原</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#MYSQL学习的第一天"><span class="nav-number">1.</span> <span class="nav-text">MYSQL学习的第一天</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#DQL-查询语句"><span class="nav-number">2.</span> <span class="nav-text">DQL:查询语句</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#约束"><span class="nav-number">2.1.</span> <span class="nav-text">约束</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数据库的设计"><span class="nav-number">2.2.</span> <span class="nav-text">数据库的设计</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数据库的备份和还原"><span class="nav-number">2.3.</span> <span class="nav-text">数据库的备份和还原</span></a></li></ol></li></ol></div>
             
 
           </div>
