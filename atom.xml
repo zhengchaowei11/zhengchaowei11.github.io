@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>郑先生的博客</title>
+  
+  <subtitle>天下事有难易乎？为之，则难者亦易矣；不为，则易者亦难矣。</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-05-03T06:09:10.322Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>小郑</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux入门</title>
+    <link href="http://yoursite.com/2019/05/03/linux%E5%85%A5%E9%97%A8/"/>
+    <id>http://yoursite.com/2019/05/03/linux入门/</id>
+    <published>2019-05-03T05:51:13.000Z</published>
+    <updated>2019-05-03T06:09:10.322Z</updated>
+    
+    <content type="html"><![CDATA[<center><strong>linux入门</strong></center><p><br></p><div class="row">    <embed src="../pdf/linux入门.pdf" width="100%" height="550" type="application/pdf"></div> <p><br></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;center&gt;&lt;strong&gt;linux入门&lt;/strong&gt;&lt;/center&gt;
+
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;../pdf/linux入门.pdf&quot; width=&quot;100%&quot; height=&quot;550&quot; t
+      
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>郑先生</title>
+    <link href="http://yoursite.com/2019/05/03/%E9%83%91%E5%85%88%E7%94%9F/"/>
+    <id>http://yoursite.com/2019/05/03/郑先生/</id>
+    <published>2019-05-03T03:01:15.000Z</published>
+    <updated>2019-05-03T03:05:42.986Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="郑超伟"><a href="#郑超伟" class="headerlink" title="郑超伟"></a>郑超伟</h1><h2 id="郑超伟的第一篇文章"><a href="#郑超伟的第一篇文章" class="headerlink" title="郑超伟的第一篇文章"></a>郑超伟的第一篇文章</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;郑超伟&quot;&gt;&lt;a href=&quot;#郑超伟&quot; class=&quot;headerlink&quot; title=&quot;郑超伟&quot;&gt;&lt;/a&gt;郑超伟&lt;/h1&gt;&lt;h2 id=&quot;郑超伟的第一篇文章&quot;&gt;&lt;a href=&quot;#郑超伟的第一篇文章&quot; class=&quot;headerlink&quot; title=&quot;郑超伟
+      
+    
+    </summary>
+    
+      <category term="前段" scheme="http://yoursite.com/categories/%E5%89%8D%E6%AE%B5/"/>
+    
+    
+      <category term="-导航 -分享" scheme="http://yoursite.com/tags/%E5%AF%BC%E8%88%AA-%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
+  
+</feed>
