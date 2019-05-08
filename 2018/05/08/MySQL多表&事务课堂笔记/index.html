@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="郑先生的博客">
 <meta property="og:description" content="mysql多表查询1. 多表查询  2. 事务  3. DCL 多表查询：* 查询语法：     select         列名列表     from         表名列表     where.... * 准备sql     # 创建部门表     CREATE TABLE dept(         id INT PRIMARY KEY AUTO_INCREMENT,         N">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-05-08T15:43:16.396Z">
+<meta property="og:updated_time" content="2019-05-08T15:47:04.640Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mysql学习的第二天 多表查询和事务">
 <meta name="twitter:description" content="mysql多表查询1. 多表查询  2. 事务  3. DCL 多表查询：* 查询语法：     select         列名列表     from         表名列表     where.... * 准备sql     # 创建部门表     CREATE TABLE dept(         id INT PRIMARY KEY AUTO_INCREMENT,         N">
@@ -361,8 +361,8 @@
         id INT PRIMARY KEY AUTO_INCREMENT,
         NAME VARCHAR(20)
     );
-    &lt;!--more--&gt;
-    INSERT INTO dept (NAME) VALUES (&apos;开发部&apos;),(&apos;市场部&apos;),(&apos;财务部&apos;);
+</code></pre><a id="more"></a>
+<pre><code>    INSERT INTO dept (NAME) VALUES (&apos;开发部&apos;),(&apos;市场部&apos;),(&apos;财务部&apos;);
     # 创建员工表
     CREATE TABLE emp (
         id INT PRIMARY KEY AUTO_INCREMENT,
